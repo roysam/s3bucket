@@ -1,5 +1,6 @@
 variable "bucket_name" {}
 
 variable "acl_value" {
-    default = "public-read-write"
+    # default = "public-read-write"
+    default = "private-read-write"
 }
